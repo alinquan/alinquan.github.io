@@ -2,7 +2,7 @@ module.exports = {
   lang: "en-US",
   title: "请叫我靓仔", // 网站标题
   description: "总结归纳学习中的知识", // 网站的描述
-  base: "/web/", //  部署时的路径 默认 / ，
+  base: "/", //  部署时的路径 默认 / ，
   head: [["link", { rel: "icon", href: "/favicon.ico" }]], // 添加网站图标 // 主题配置
   themeConfig: {
     logo: "/logo.jpg",
