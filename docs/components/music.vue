@@ -13,6 +13,7 @@
 </template>
 <script setup>
 import { ref, onMounted } from "vue";
+import "../assets/style/Aplayer.css";
 let show = ref(false);
 onMounted(async () => {
   await import("../assets/js/Meting.min.js");
@@ -21,5 +22,5 @@ onMounted(async () => {
 });
 </script>
 <style lang="less">
-@import "../assets/style/Aplayer.css";
+// @import "../assets/style/Aplayer.css";
 </style>

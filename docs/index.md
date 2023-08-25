@@ -25,11 +25,7 @@ features:
     details: cocococo
 ---
 
-<Music></Music>
-
-<script setup>
-import Music from './components/music.vue'
-</script>
+<!-- <Music></Music> -->
 
 <style>
 :root {
