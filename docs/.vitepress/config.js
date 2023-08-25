@@ -1,5 +1,6 @@
+import { pagefindPlugin } from "vitepress-plugin-pagefind";
+
 module.exports = {
-  lang: "en-US",
   title: "请叫我靓仔", // 网站标题
   description: "总结归纳学习中的知识", // 网站的描述
   base: "/", //  部署时的路径 默认 / ，
@@ -23,7 +24,7 @@ module.exports = {
     ], //  左侧导航栏配置
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan LiangZai",
+      copyright: "Copyright © 2019-present 靓仔",
     },
     sidebar: {
       htmldocs: [
@@ -45,6 +46,22 @@ module.exports = {
           ],
         },
       ],
+    },
+  },
+  vite: {
+    plugins: [
+      //搜索插件
+      pagefindPlugin({
+        encode: false,
+        tokenize: "full", // 解决汉字不能多个输入
+      }),
+    ],
+  },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.startsWith("meting-"),
+      },
     },
   },
 };

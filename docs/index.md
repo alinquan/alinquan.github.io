@@ -1,24 +1,35 @@
-layout: home1111
-hero:
-name: 靓仔
-text: 个人博客
-tagline: 标语
-actions: - theme: brand
-text: 开始
-link: /guide/what-is-vitepress - theme: alt
-text: View on GitHub
-link: https://github.com/vuejs/vitepress
-features:
+---
+layout: home
 
-- icon: ⚡️
-  title: vite 超快冷启动和热加载
-  details: Lorem ipsum...
-- icon: 🖖
-  title: Vue 的力量与 Markdown 相遇
-  details: Lorem ipsum...
-- icon: 🛠️
-  title: 始终简单、最少
-  details: Lorem ipsum...
+hero:
+  name: 靓仔的站点
+  text: 工作&学习&日常
+  tagline: 此人很懒，什么都没留下...
+  image:
+    # src: /logo.jpg
+    alt: Kitty
+  actions:
+    - theme: brand
+      text: 随便看看
+      link: /bookmark/
+
+features:
+  - icon: ⚡️
+    title: 这是一个闪电图标
+    details: wawawa
+  - icon: 🖖
+    title: 这是一个手掌图标
+    details: good...
+  - icon: 🛠️
+    title: 这是一个修理图标
+    details: cocococo
+---
+
+<Music></Music>
+
+<script setup>
+import Music from './components/music.vue'
+</script>
 
 <style>
 :root {

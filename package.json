@@ -12,6 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vitepress": "^1.0.0-rc.4"
+    "vitepress": "^1.0.0-rc.4",
+    "vitepress-plugin-pagefind": "^0.2.6"
+  },
+  "devDependencies": {
+    "less": "^4.2.0"
   }
 }
