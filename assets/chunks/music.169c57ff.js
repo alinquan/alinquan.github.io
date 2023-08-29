@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s}from"./framework.3258c7ce.js";const c={},r={server:"netease",fixed:"true",type:"playlist",id:"8685999135"};function n(o,_){return t(),s("meting-js",r)}const i=e(c,[["render",n]]);export{i as default};
