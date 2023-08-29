@@ -4,7 +4,35 @@ module.exports = {
   title: "请叫我靓仔", // 网站标题
   description: "总结归纳学习中的知识", // 网站的描述
   base: "/", //  部署时的路径 默认 / ，
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]], // 添加网站图标 // 主题配置
+  head: [
+    // 添加网站图标
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    // //引入播放器js
+    [
+      "script",
+      {
+        async: "",
+        // src: "https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js",
+        src: "/music/APlayer.min.js",
+      },
+    ],
+    [
+      "script",
+      {
+        async: "",
+        // src: "https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js",
+        src: "/music/Meting.min.js",
+      },
+    ],
+    [
+      "link",
+      {
+        // href: "https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css",
+        href: "/music/Aplayer.css",
+        rel: "stylesheet",
+      },
+    ],
+  ], // 主题配置
   themeConfig: {
     logo: "/logo.jpg",
     // 导航栏配置

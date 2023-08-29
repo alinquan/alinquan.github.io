@@ -16,6 +16,7 @@
     "vitepress-plugin-pagefind": "^0.2.6"
   },
   "devDependencies": {
-    "less": "^4.2.0"
+    "less": "^4.2.0",
+    "typescript": "^5.2.2"
   }
 }

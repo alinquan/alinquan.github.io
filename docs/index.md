@@ -6,7 +6,7 @@ hero:
   text: 工作&学习&日常
   tagline: 此人很懒，什么都没留下...
   image:
-    # src: /logo.jpg
+    src: /logo.jpg
     alt: Kitty
   actions:
     - theme: brand
@@ -24,8 +24,6 @@ features:
     title: 这是一个修理图标
     details: cocococo
 ---
-
-<!-- <Music></Music> -->
 
 <style>
 :root {
